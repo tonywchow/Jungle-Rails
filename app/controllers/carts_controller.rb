@@ -1,6 +1,11 @@
 class CartsController < ApplicationController
 
   def show
+    if cart.empty?
+      @message = "Your car is empty."
+      @link_text = "Go to homepage"
+      @link_path =  root_path
+    end
   end
 
   def add_item
