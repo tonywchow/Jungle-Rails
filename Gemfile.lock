@@ -286,6 +286,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   carrierwave
+  dotenv (~> 2.7)
   dotenv-rails
   faker
   font-awesome-rails
